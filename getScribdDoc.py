@@ -24,7 +24,7 @@ def mydownload(url, fileName=None):
 
 
 import os.path
-htmlSource = r'D:\Personal\test\Written\Python\Scribd_scrape\dwld_dir\Carson-W-Taylor-Power-System-Voltage-Stability-1994.htm'
+htmlSource = r'test.htm'
 foundId = False
 
 with open(htmlSource,'r') as fd: # read the saved html file
